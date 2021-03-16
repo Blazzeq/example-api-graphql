@@ -1,0 +1,30 @@
+# query
+# {
+#   getMovies(limit: 15)
+#   {
+#     title
+#     director
+#   }
+# }
+
+# query
+# {
+#   getMovieById(index: 3)
+#   {
+#     title
+#     director
+#   }
+# }
+
+# mutation
+# {
+#   createMovie(title: "Avengers: Infinity War", director: "Anthony Russo")
+#   {
+#     id
+#   }
+# }
+
+# mutation
+# {
+#   deleteMovie(index: 3)
+# }
